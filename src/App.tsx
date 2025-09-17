@@ -3,7 +3,7 @@ import { Link, Outlet } from 'react-router-dom';
 function App() {
   return (
     <div>
-      <nav>
+      <nav className="header">
         <Link to="/">Home</Link> | {" "}
         <Link to="/contact">Contact</Link> | {" "}
       </nav>
